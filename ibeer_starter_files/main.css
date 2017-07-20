@@ -117,7 +117,7 @@ main{
     padding: 20px;
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
-    flex-basis: 500px;
+    flex-basis: 600px;
     position: relative;
     z-index: 2;
     margin-top: -50px;
@@ -131,7 +131,7 @@ aside{
     padding: 20px;
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
-    flex-basis: 300px;
+    flex-basis: 200px;
     position: relative;
     z-index: 3;
     margin-top: -50px;
@@ -190,6 +190,8 @@ article footer p{
     border-top: 1px solid #ccc;
     padding: 20px 0 0;
     margin: 10px 0 0;
+    font-size: 0.9em;
+    color: #666;
     /*
         TODO:
         - Style the article footer
@@ -202,7 +204,7 @@ article footer p{
     margin-top: 50px;
     padding: 20px 0;
     text-align: center;
-    color: white;
+    color: #ccc;
     /*
         TODO:
         - Style the site footer
